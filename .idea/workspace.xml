@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="">
+    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentsQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/GraphQL/Types/CommentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +142,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
       <path value="$PROJECT_DIR$/vendor/laravel/passport" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/rebing/graphql-laravel" />
+      <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gwaXfmHHKXaQriDzA8KVB2fKp4" />
@@ -167,12 +177,24 @@
       <workItem from="1599029188383" duration="73000" />
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
-      <workItem from="1599114150217" duration="6987000" />
+      <workItem from="1599114150217" duration="16265000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1599121776305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599121776306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2544" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599117176187">
@@ -192,5 +214,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599029259027" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599121781196">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599121781196" />
   </component>
 </project>

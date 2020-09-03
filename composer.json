@@ -15,7 +15,8 @@
         "laravel/framework": "^7.24",
         "laravel/passport": "^9.3",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^2.2"
+        "laravel/ui": "^2.2",
+        "rebing/graphql-laravel": "^5.1"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
