@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentsQuery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/GraphQL/Types/CommentType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="Komentarze graphql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +169,7 @@
       <workItem from="1599029188383" duration="73000" />
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
-      <workItem from="1599114150217" duration="16265000" />
+      <workItem from="1599114150217" duration="19183000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599121776305</created>
@@ -186,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599121776306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Komentarze graphql">
+      <created>1599133641881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599133641881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Komentarze graphql">
+      <created>1599133661983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599133661983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +200,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Komentarze graphql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Komentarze graphql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2544" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599117176187">
@@ -214,9 +221,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599029259027" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599121781196">
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599133665758">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599121781196" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599133665758" />
   </component>
 </project>

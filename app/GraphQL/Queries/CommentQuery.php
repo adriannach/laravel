@@ -10,7 +10,7 @@ use Rebing\GraphQL\Support\Query;
 class CommentQuery extends Query
 {
     protected $attributes = [
-        'name' => 'Comment',
+        'name' => 'comment',
     ];
 
     public function type(): Type
