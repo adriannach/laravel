@@ -5,36 +5,36 @@ use App\Comment;
 use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Type as GraphQLType;
 
-class CommentType extends GraphQLType
+class CommentType extends GraphQLType //schemat interfejsu API
 {
-    protected $attributes = [
+    protected $attributes = [//określenie atrybutu
         'name' => 'Comment',
-        'description' => '',
+        'description' => 'informacje o komentarzach',
         'model' => Comment::class
     ];
 
-    public function fields(): array
+    public function fields(): array//określenie zwracanych zmiennych do tabeli
     {
         return [
             'id' => [
                 'type' => Type::nonNull(Type::int()),
-                'description' => '',
+                'description' => 'id komentarza',
             ],
             'body' => [
                 'type' => Type::nonNull(Type::string()),
-                'description' => '',
+                'description' => 'komentarz',
             ],
             'author' => [
                 'type' => Type::nonNull(Type::string()),
-                'description' => '',
+                'description' => 'autor komentarza',
             ],
             'created_at' => [
                 'type' => Type::nonNull(Type::string()),
-                'description' => '',
+                'description' => 'data utworzenia',
             ],
             'updated_at' => [
                 'type' => Type::nonNull(Type::string()),
-                'description' => '',
+                'description' => 'data aktualizacji',
             ],
         ];
     }

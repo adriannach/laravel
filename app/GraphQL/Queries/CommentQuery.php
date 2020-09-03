@@ -7,18 +7,18 @@ use GraphQL\Type\Definition\Type;
 use Rebing\GraphQL\Support\Facades\GraphQL;
 use Rebing\GraphQL\Support\Query;
 
-class CommentQuery extends Query
+class CommentQuery extends Query //zapytania graphql
 {
-    protected $attributes = [
+    protected $attributes = [//okreslenie atrybutu
         'name' => 'comment',
     ];
 
-    public function type(): Type
+    public function type(): Type//określenie typu
     {
         return GraphQL::type('Comment');
     }
 
-    public function args():array
+    public function args():array//wyszukanie po id - wymagane
     {
         return [
             'id' => [
