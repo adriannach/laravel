@@ -41,7 +41,7 @@ class CommentController extends Controller
             'body' => 'required|max:200',
         ]);
 
-        if($validatedData)
+        if($validatedData)//spardzenie poprawności walidacji
         {
             $user = Auth::user()->name;
 

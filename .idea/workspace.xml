@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="" />
+    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +13,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -131,6 +137,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gwaXfmHHKXaQriDzA8KVB2fKp4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -160,7 +167,7 @@
       <workItem from="1599029188383" duration="73000" />
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
-      <workItem from="1599114150217" duration="6623000" />
+      <workItem from="1599114150217" duration="6987000" />
     </task>
     <servers />
   </component>
@@ -173,6 +180,14 @@
     </state>
     <state x="2544" y="217" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599117176187" />
     <state x="499" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1599028614890" />
+    <state x="2758" y="423" key="Github.ShareDialog" timestamp="1599121434065">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2758" y="423" key="Github.ShareDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599121434065" />
+    <state x="2652" y="230" key="Github.UntrackedFilesDialog" timestamp="1599121445084">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2652" y="230" key="Github.UntrackedFilesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599121445084" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1599029259027">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
