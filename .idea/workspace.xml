@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="Komentarz graphql">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentQuery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Queries/CommentsQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Queries/CommentsQuery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/GraphQL/Types/CommentType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/GraphQL/Types/CommentType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/graphql.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/graphql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="anachtygal" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -138,6 +147,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/rebing/graphql-laravel" />
       <path value="$PROJECT_DIR$/vendor/webonyx/graphql-php" />
+      <path value="$PROJECT_DIR$/vendor/auth0/auth0-php" />
+      <path value="$PROJECT_DIR$/vendor/auth0/login" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gwaXfmHHKXaQriDzA8KVB2fKp4" />
@@ -171,7 +182,7 @@
       <workItem from="1599029188383" duration="73000" />
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
-      <workItem from="1599114150217" duration="20901000" />
+      <workItem from="1599114150217" duration="36070000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599121776305</created>
@@ -201,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599137814072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Komentarz graphql">
+      <created>1599140128864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599140128864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,13 +245,22 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2652" y="230" key="Github.UntrackedFilesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599121445084" />
+    <state x="552" y="140" key="NewPhpClassDialog" timestamp="1599208415768">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="552" y="140" key="NewPhpClassDialog/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599208415768" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1599029259027">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599029259027" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599137816754">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2" timestamp="1599215593098">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599137816754" />
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599215593098" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599140133454" />
+    <state x="0" y="203" width="1178" height="684" key="dock-window-1" timestamp="1599211360962">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="203" width="1178" height="684" key="dock-window-1/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599211360962" />
   </component>
 </project>

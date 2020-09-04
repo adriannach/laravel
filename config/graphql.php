@@ -104,6 +104,7 @@ return [
                 'comment' => App\GraphQL\Queries\CommentQuery::class,
                 'comments' => App\GraphQL\Queries\CommentsQuery::class,
             ],
+            'middleware' => ['checkAccess'],
         ],
     ],
 
