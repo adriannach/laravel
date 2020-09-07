@@ -77,7 +77,22 @@ class CommentController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validatedData = $request->validate([ //walidacja danych
+            'body' => 'required|max:200',
+        ]);
+
+        if($validatedData)//spardzenie poprawności walidacji
+        {
+            $com = Comment::findOrFail($request->id);
+            $com->update([
+                'body' => $request->body,
+            ]);
+            return response($com);
+        }
+        else
+        {
+            return abort(404);
+        }
     }
 
     /**
