@@ -88,6 +88,11 @@ class CommentController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $com = Comment::findOrFail($id);
+        $com->delete();
+
+        $com = ("usunięto komentarz o id: " .$id);
+
+        return response($com);
     }
 }
