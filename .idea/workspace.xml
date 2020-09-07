@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="graphql auth0">
+    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="usuwanie komentarzy + passport">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
@@ -178,7 +196,7 @@
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
       <workItem from="1599114150217" duration="37424000" />
-      <workItem from="1599459381447" duration="3016000" />
+      <workItem from="1599459381447" duration="4175000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599121776305</created>
@@ -229,18 +247,37 @@
       <option name="project" value="LOCAL" />
       <updated>1599217555209</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="usuwanie komentarzy + passport">
+      <created>1599462502178</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599462502178</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Komentarze graphql" />
     <MESSAGE value="Komentarz graphql" />
     <MESSAGE value="graphql auth0" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphql auth0" />
+    <MESSAGE value="usuwanie komentarzy + passport" />
+    <option name="LAST_COMMIT_MESSAGE" value="usuwanie komentarzy + passport" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="96" key="#Inspections" timestamp="1599461518559">
@@ -272,11 +309,12 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599029259027" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1599217560656">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2" timestamp="1599462510401">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599215651200" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599217560656" />
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599462510401" />
     <state x="0" y="203" width="1178" height="684" key="dock-window-1" timestamp="1599211360962">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
