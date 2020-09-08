@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="usuwanie komentarzy + passport">
+    <list default="true" id="8be97148-98c1-4e76-9e9d-06e05958962b" name="Default Changelist" comment="edycja komentarzy + passport">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +201,7 @@
       <workItem from="1599029271767" duration="8932000" />
       <workItem from="1599042977974" duration="6301000" />
       <workItem from="1599114150217" duration="37424000" />
-      <workItem from="1599459381447" duration="4175000" />
+      <workItem from="1599459381447" duration="10159000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599121776305</created>
@@ -254,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599462502178</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edycja komentarzy + passport">
+      <created>1599463642387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599463642387</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +289,8 @@
     <MESSAGE value="Komentarz graphql" />
     <MESSAGE value="graphql auth0" />
     <MESSAGE value="usuwanie komentarzy + passport" />
-    <option name="LAST_COMMIT_MESSAGE" value="usuwanie komentarzy + passport" />
+    <MESSAGE value="edycja komentarzy + passport" />
+    <option name="LAST_COMMIT_MESSAGE" value="edycja komentarzy + passport" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="96" key="#Inspections" timestamp="1599461518559">
@@ -309,12 +322,12 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1599029259027" />
-    <state x="442" y="205" key="Vcs.Push.Dialog.v2" timestamp="1599462510401">
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2" timestamp="1599463759715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599215651200" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599217560656" />
-    <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599462510401" />
+    <state x="442" y="205" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1599463759715" />
     <state x="0" y="203" width="1178" height="684" key="dock-window-1" timestamp="1599211360962">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

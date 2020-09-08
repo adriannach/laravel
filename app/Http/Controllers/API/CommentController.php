@@ -22,7 +22,7 @@ class CommentController extends Controller
 
         return response($comments);
     }
-
+``
     public function apiC()
     {
         return view('apiC');
